@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:sans-serif;
+        }
+
+        .wrap{
+            width: 1200px;
+            margin: 100px auto;
+        }
+        
+        .item{
+            /* border: 1px solid red; */
+            margin-bottom: 80px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .item .pic{
+            width: 55%;
+            flex-shrink: 0;
+        }
+        
+        .item .pic img{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .item > :first-child{
+            margin-right: -10%;
+        }
+        
+        .item .txt{
+            background-color: yellow;
+            z-index: 1;
+            padding: 50px 30px;
+        }
+
+        .item:nth-child(1) .txt {
+            background-color: rgb(245, 147, 147);
+        }
+
+        .item:nth-child(2) .txt {
+            background-color: rgb(229, 181, 122);
+        }
+
+        .item:nth-child(3) .txt {
+            background-color: rgb(128, 122, 218);
+        }
+
+        .item:nth-child(4) .txt {
+            background-color: rgb(142, 231, 142);
+        }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="item">
+        <div class="pic">
+          <img src="./images/06.jpg" alt="" />
+        </div>
+        <div class="txt">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, iste nostrum voluptates culpa voluptatum dicta
+            excepturi molestiae, mollitia ratione a itaque incidunt. Architecto
+            delectus error veritatis voluptatem non iure ipsa.
+          </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="txt">
+             <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, iste nostrum voluptates culpa voluptatum dicta
+            excepturi molestiae, mollitia ratione a itaque incidunt. Architecto
+            delectus error veritatis voluptatem non iure ipsa.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="./images/04.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pic">
+          <img src="./images/09.jpg" alt="" />
+        </div>
+        <div class="txt">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, iste nostrum voluptates culpa voluptatum dicta
+            excepturi molestiae, mollitia ratione a itaque incidunt. Architecto
+            delectus error veritatis voluptatem non iure ipsa.
+          </p>
+        </div>
+      </div>
+
+            <div class="item">
+        <div class="txt">
+             <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perferendis, iste nostrum voluptates culpa voluptatum dicta
+            excepturi molestiae, mollitia ratione a itaque incidunt. Architecto
+            delectus error veritatis voluptatem non iure ipsa.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="./images/04.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
